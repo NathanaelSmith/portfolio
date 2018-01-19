@@ -1,0 +1,61 @@
+body{
+	margin: 10;
+	background: Gray;
+}
+
+header{
+	font-size: 40px;
+	color: white;
+	background: linear-gradient(DeepSkyBlue, LightSkyBlue);
+	padding: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+p{
+	border-style: solid;	
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: Green;
+}
+
+nav li{
+	float: left;
+	border-right: 2px solid white;
+}
+
+nav li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover:not(.active){
+	background-color: Yellow;
+}
+
+.active{
+	background-color: Blue;
+}
+
+section{
+	display: flex;
+}
+
+aside{
+	flex: 1;
+}
+
+article{
+	flex: 4;
+}
+
+
+
